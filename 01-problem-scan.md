@@ -132,5 +132,17 @@
 
 ---
 
-## 📌 Ghi chú lựa chọn (để chuẩn bị cho Deep-Dive nhóm)
-Cả 3 card đều có căn cứ thực tế từ khảo sát/tính năng mới ra mắt 2025-2026, cho thấy đây là các điểm nghẽn **đang được chính Vingroup xác nhận là chưa giải quyết dứt điểm**, phù hợp để nhóm tiếp tục Deep-Dive (Phase 3) chọn ra 1 bài toán duy nhất.
+## 🗳️ Quyết định lựa chọn
+
+**Bài toán được chọn để Deep-Dive:** 👉 **Card #2 — Xanh SM: Giải trình vi phạm của tài xế**
+
+**Lý do chọn:**
+- Ranh giới an toàn rõ ràng, có thể kiểm chứng bằng code (Human-in-the-loop bắt buộc vì ảnh hưởng trực tiếp thu nhập tài xế).
+- Có căn cứ thực tế mạnh nhất trong 3 card: Xanh SM đã phải tự bổ sung tính năng "Giải trình trực tuyến" (12/2025) chính vì quy trình cũ gây tranh cãi — chứng tỏ đây là điểm nghẽn thật, đang được công ty thừa nhận.
+- **Không trùng lặp** với các đề tài khác trong nhóm (khác các bạn cùng nhóm đều chọn kịch bản "Xanh SM hết pin thực địa").
+
+**Lý do hoãn các card khác:**
+- **Card #1 (VinFast đặt lịch/tiếp đón):** Bottleneck nằm nhiều ở phía quy trình vận hành đại lý (ngoài tầm kiểm soát trực tiếp của AI), cần chuẩn hóa quy trình nội bộ trước khi thêm AI.
+- **Card #3 (Vinhomes định tuyến bảo trì):** Sau khi rà soát chéo, ý tưởng này trùng với Quick Card của 2 thành viên khác trong nhóm — giữ lại trong SCAN cá nhân nhưng không chọn để tránh trùng lặp nội dung nhóm.
+
+Xem chi tiết phân tích tại [`02-deep-dive-report.md`](02-deep-dive-report.md) và sơ đồ quy trình tại [`04-workflow-diagram.png`](04-workflow-diagram.png).

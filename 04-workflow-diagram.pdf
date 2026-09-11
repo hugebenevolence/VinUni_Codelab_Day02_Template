@@ -1,0 +1,21 @@
+04-WORKFLOW-DIAGRAM - XANH SM BATTERY INCIDENT
+
+CURRENT-STATE WORKFLOW (not to scale)
+
+[1. Receive driver call]
+        | 2 min | HANDOFF: driver -> dispatcher
+        v
+[2. Record plate, battery, GPS]
+        | 2 min |
+        v
+[3. Search GPS and charging dashboard]  <-- BOTTLENECK / 5 min
+        | 5 min | HANDOFF: map -> station dashboard
+        v
+[4. Check vehicle compatibility and write directions]  <-- BOTTLENECK / 5 min
+        | 5 min |
+        v
+[5. Dispatcher reviews, sends draft or calls rescue]  <-- HANDOFF / 1 min
+
+TOTAL AVERAGE: 15 minutes per incident
+BOTTLENECK TOTAL: 10 minutes (steps 3-4)
+LEGEND: BOTTLENECK = slow/error-prone step; HANDOFF = information transfer
